@@ -4,21 +4,8 @@
 using namespace std;
 
 int main() {
-    vector < int > list {
-        10,
-        10,
-        10,
-        10,
-        };
-
-    auto size = list.size();
-     
+    vector < int > list {10,10,10,10,};
     for (auto element: list)
-        cout << element << " ";
-
-    cout << endl;
-    cout << "";
-
-   
+    cout << element << " ";
     return 0;
 }
